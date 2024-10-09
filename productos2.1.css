@@ -1,0 +1,255 @@
+/* Por defecto Max-width: 1920px */
+
+/* Por defecto Max-height: 953px*/
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-weight: bold;
+    color: #444;
+}
+/* HEADER */
+header{
+    display: flex;
+    height: 8vw;
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 8px solid #10599C;
+}
+header .link img{
+    width: 65%;
+    position: relative;
+    right: 100px;
+    bottom: 40px;
+}
+/* HEADER LINK */
+.menu a{
+    color: #444;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 32px;
+    font-size: 28.5px;
+    letter-spacing: 0.5px;
+    transition: 0.4s;
+}
+.menu{
+    position: relative;
+    right: 520px;
+}
+.mostrar_menu,
+.esconder_menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+.mostrar_menu{
+    order: 1;
+    position: relative;
+    top: 20%;
+    right: 100%;
+}
+.menu a:hover,
+.mostrar_menu:hover,
+.esconder_menu:hover{
+    color: #10599C;
+    text-decoration: underline;
+}
+
+#check{
+    display: none;
+}
+/* FIRST_FRAME */
+.first_frame{
+    width: 100%;
+    height: 3.4vw;
+    background-color: rgba(16, 89, 156, 0.8);
+    color: #fff;
+}
+.contactos{
+    width: 35%;
+    height: 3vw;
+    padding: 0 60px;
+    
+}
+.contactos img{
+   position: relative;
+   top: 15px;
+}
+.gmail{
+    position: relative;
+    left: 110px;
+}
+.contactos a{
+    color: #fff;
+    text-decoration: none;
+}
+.numero{
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+.correo{
+    position: relative;
+    left: 120px;
+    top: 6px;
+}
+/* REDES_SOCIALES */
+.redes{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 10%;
+    position: absolute;
+    left: 67%;
+    top: 12px;
+}
+.a{
+    position: relative;
+    top: 1.5px;
+}
+.b{
+    position: relative;
+    top: 3px;
+}
+.c{
+    position: relative;
+    top: 1.3px;
+}
+.d{
+    position: relative;
+    top: 3px;
+}
+/* INICIO Y REGISTRO */
+.inicio_registro{
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 18%;
+    position: absolute;
+    top: 13px;
+    left: 80%;
+}
+.inicio_registro a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 10px;
+}
+
+/* BARRA DIVISORA */
+#barra{
+    font-size: 30px;
+    position: relative;
+    top: 2px;
+}
+/* LOGO */
+.logo{
+    width: 10%;
+    position: relative;
+    top: 5px;
+}
+/*AGENDACION_DE _CITAS*/
+.citas{
+    width: 14%;
+    height: 7vh;
+    background:linear-gradient( to right, #0F5FA9 77% ,#053463 77%);
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px 0px rgba(68, 68, 68, 1);
+    position: absolute;
+    right: 2.5%;
+    top: 100px;
+}
+.citas a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 20px;
+    left: 12%;
+    font-size: 14px;
+}
+
+.citas h2{
+    width: 58%;
+}
+
+.citas img{
+    position: relative;
+    left: 80%;
+    bottom: 13px;
+}
+
+#carrito{
+    position: absolute;
+    left: 77.5%;
+}
+/*LINEA_DIVISORA*/
+.linea{
+    width: 100%;
+    height: 1vh;
+    background-color: rgba(16, 89, 156, 0.8);
+    position: relative;
+    bottom: 5px;
+}
+.banner_gato_contenedor{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+/*MENÚ DE OPCIONES SESION DE GATO*/
+.clearfix{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.opciones{
+    width: 220px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    background-color: #9bc5fc;
+    filter: brightness(96%);
+}
+
+
+.fila_productos{
+    display: flex;
+    justify-content: center;
+}
+.producto1{
+    border: 3px solid #00000064;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    margin: 0 30px;
+    position: relative;
+    border-radius: 6px;
+}
+.corazon{
+    position: absolute;
+    top: 15px;
+}
+
+
+@media (Max-width: 1776px){
+    .menu{
+        position: relative;
+        right: 450px;
+    }
+    #carrito{
+        position: absolute;
+        left: 77.2%;
+        top: 11.2%;
+    }
+}
