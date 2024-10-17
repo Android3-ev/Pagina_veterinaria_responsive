@@ -3,277 +3,331 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/Web_responsive.css">
+    <link rel="stylesheet" href="index2.1.css">
     <link rel="shortcut icon" href="index/Encabezado/logo-pestaña.png">
-    <title>Document</title>
+    <title>Caninos y Felinos</title>
 </head>
 <body>
-     <nav class="first_frame">
-          <!-------------------------------CONTACTOS---------------------------------------->
-        <nav class="contactos">
-            <img src="index/Encabezado/Telefono.png" alt="Telefono">
-            <a href="#" class="numero">+57 3246110500</a>
-            <img class="gmail" src="index/Encabezado/Mail.png" alt="Gmail">
-            <a href="#" class="correo">OSWALDOECHEVERRIA307@GMAIL.COM</a>
-        </nav>
-
-        <div class="redes">
-            <a href="#" class="a"><img  src="index/Encabezado/Facebook.png" alt="Facebook"></a>
-            <a href="#" class="b"><img  src="index/Encabezado/Instagram.png" alt="Instagram"></a>
-            <a href="#" class="c"><img  src="index/Encabezado/youtube.png" alt="youtube"></a>
-            <a href="#" class="d"><img  src="index/Encabezado/twitter.png" alt="twitter"></a>
+     <!--- HEADER -->
+     <div class="container">
+        <div class="container1">
+            <!-- CONTACTOS -->
+            <div class="contactos">
+                <div class="Telefono">
+                    <img src="index/Encabezado/Telefono.png" alt="Telefono">
+                    <p>3246110500</p>
+                </div>
+                <div class="correo">
+                    <img src="index/Encabezado/Mail.png" alt="Gmail">
+                    <p>OSWALDOECHEVERRIA307@gmail.com</p>
+                </div>
+            </div>
+            <!-- REDES -->
+            <div class="redes">
+                <a href="#" class="a"><img  src="index/Encabezado/Facebook.png" alt="Facebook"></a>
+                <a href="#" class="b"><img  src="index/Encabezado/Instagram.png" alt="Instagram"></a>
+                <a href="#" class="c"><img  src="index/Encabezado/youtube.png" alt="youtube"></a>
+                <a href="#" class="d"><img  src="index/Encabezado/twitter.png" alt="twitter"></a>
+            </div>
+            <!-- INICIO-REGISTRO -->
+            <div class="inicio_registro">
+                <img id="Usuario"  src="index/Encabezado/Usuario.png" alt="Usuario">
+                <span><a href="#">INICIAR SESIÓN</a></span>
+                <!--BARRA DIVISORA-->
+                <span id="barra">/</span>
+                <span><a href="#" id="registro" >REGÍSTRATE</a></span>
+            </div>
         </div>
-        <img id="Usuario"  src="index/Encabezado/Usuario.png" alt="Usuario">
-        <!--BARRA DIVISORA-->
-        <span id="barra">/</span>
-        <!--INICIO Y REGISTRO-->
-        <span><a href="inicio-de-sesion.html">INICIAR SESIÓN</a></span>
-        <span><a href="registro.html" id="registro" >REGÍSTRATE</a></span>
-    </nav>
-    <!-------------------------------HEADER------------------------------->
-    <header>
-        <img class="logo" src= "Logo 3.png" alt="Logo">
-        <input type="checkbox" id="check">
-        <label for="check" class="mostrar_menu">
-            &#8801
-        </label>
-        <nav class="menu">
-            <a href="#">PRODUCTOS</a>
-            <a href="#">SERVICIOS</a>
-            <a href="#">URGENCIAS</a>
-            <a href="#">NOSOTROS</a>
-            <label for="check" class="esconder_menu">
-                &#215
+        <!-- LOGO - MENU - CITAS -->
+        <div class="container2">
+            <div class="logo">
+                <a href="Index_responsive.html"><img src="LOGO.png"  alt="LOGO"></a>
+            </div>
+
+            <input type="checkbox" id="check">
+            <label for="check" class="mostrar_menu">
+                &#8801
             </label>
-        </nav>  
-    </header>
-      <!--AGENDACION DE CITAS-->
-      <div class="citas">
-        <a href="citas.html"><h2>Agendar citas</h2></a>
-        <img src="Calendar.png" alt="Calendario">
-    </div>
-     <!--CARRITO DE COMPRAS-->
-    <a href="#" id="carrito" ><img src="Carrito de compras.png" alt="Carrito de compras"></a>
-    <!--LINEA-->
-    <div class="linea"></div>
-    <!--PRIMER BANNER-->
-    <img class="banner1" src="index/banner de inicio/banner 2.png" alt="Primer banner">
-    <div>
-        <!--TÍTULOS Y SUBTITULOS-->
-        <h1><b>Los productos para mascotas más vendidos</b></h1>
-        <h3> <b>Estos son los productos que más compran nuestros clientes. ¡Echa un vistazo y anímate!</b></h3>
-    </div>
-
-    <!--------------------PRODUCTOS MÁS VENDIDOS----------------------->
-    <div class="tres-productos">
-    <!--------------------------PRODUCTO 1----------------------------->
-        <div class="producto1">
-            
-            <img class="img-producto-1" src="primer_producto.png" alt="primer producto">
-
-            <!--------------------------REACCIÓN------------------------->
-            <img class="reaccion" src="REACCION.png" alt="corazon">
-
-            <!----------------------CARRITO_PRODUCTO1------------------->
-            <img id="CARRITO" src="carrito_P.png" alt="carrio_producto">
-
-            <!---------------PRECIO DEL PRODUCTO---------------------->
-            <p class="precio" ><b>$12.600,00</b></p>
-
-            <!-------------------NOMBRE DEL PRODUCTOS--------------------->
-            <p class="nombre">ROYAL CANIN ADULTO PERSIAN</p>
-
-            <!---------------------------Eleccion de producto------------------->
-            <nav id="eleccion">
-                <p><b>Elige una opcion</b></p>
+            <nav class="menu">
+                <a href="productos2.1.html">PRODUCTOS</a>
+                <a href="#">SERVICIOS</a>
+                <a href="#">URGENCIAS</a>
+                <a href="#">NOSOTROS</a>
+                <label for="check" class="esconder_menu">
+                    &#215
+                </label>
             </nav>
-
-            <!-------------------------Cantidad de producto------------------------->
-            <nav id="cantidad">
-                <p id="menos">-</p>
-                <p>1</p>
-                <p>+</p>
-            </nav>
-            <!--------------------------Botón de compra producto1------------------->
-            <nav id="comprar" >
-                <p>Comprar</p>
-            </nav>  
-        </div>
-
-        <div class="producto2">
-
-            <img class="descuento" src="DESCUENTO.png" alt="">
-
-            <img class="img-producto-2" src="segundo_producto.png" alt="primer producto">
-
-            <!--------------------------REACCIÓN------------------------->
-            <img class="reaccion2" src="REACCION.png" alt="corazon">
-
-            <!----------------------CARRITO_PRODUCTO1------------------->
-            <img id="CARRITO" src="carrito_P.png" alt="carrio_producto">
-
-            <!---------------PRECIO DEL PRODUCTO---------------------->
-            <p class="precio2" ><b>$87.340,00</b></p>
-
-            <!-------------------NOMBRE DEL PRODUCTOS--------------------->
-            <p class="nombre2">ROYAL CANIN ADULTO 44Kg</p>
-
-            <!---------------------------Eleccion de producto------------------->
-            <nav id="eleccion2">
-                <p><b>Elige una opcion</b></p>
-            </nav>
-
-            <!-------------------------Cantidad de producto------------------------->
-            <nav id="cantidad2">
-                <p id="menos2">-</p>
-                <p>1</p>
-                <p>+</p>
-            </nav>
-            <!--------------------------Botón de compra producto1------------------->
-            <nav id="comprar2" >
-                <p>Comprar</p>
-            </nav>
-        </div>
-
-        <div class="producto3">
-
-            <img class="img-producto-3" src="tercer_producto.svg" alt="primer producto">
-            <!--------------------------REACCIÓN------------------------->
-            <img class="reaccion3" src="REACCION.png" alt="corazon">
-
-            <!----------------------CARRITO_PRODUCTO1------------------->
-            <img id="CARRITO" src="carrito_P.png" alt="carrio_producto">
-            
-            <!---------------PRECIO DEL PRODUCTO---------------------->
-            <p class="precio3" ><b>$34.000,00</b></p>
-
-            <!-------------------NOMBRE DEL PRODUCTOS--------------------->
-            <p class="nombre3">EQUILíBRIO ADULTO 5Kg</p> 
-
-            <!---------------------------Eleccion de producto------------------->
-            <nav id="eleccion3">
-                <p><b>Elige una opcion</b></p>
-            </nav>
-
-            <!-------------------------Cantidad de producto------------------------->
-            <nav id="cantidad3">
-                <p id="menos3">-</p>
-                <p>1</p>
-                <p>+</p>
-            </nav>
-            <!--------------------------Botón de compra producto1------------------->
-            <nav id="comprar3" >
-                <p>Comprar</p>
-            </nav> 
-
-            <!--PRESENTACIÓN DE LA TIENDA-->
-            <div id="tienda" >
-                <p> <b>Si tienes un perro o un gato que alegre tus días, estamos aquí para brindarte todo lo que requieres para su cuidado y bienestar.
-                    Descubre la tienda de mascota y sumérgete en nuestras secciones cuidadosamente organizadas para explorar la mayor variedad
-                    de artículos y productos diseñados exclusivamente  para satisfacer las necesidades de tus caninos y felinos. Realiza tu pedido de
-                    manera cómoda y sencilla a través de nuestro sistema en línea, con la flexibilidad de pagar utilizando tu método preferido.</b><br>
-                    <br><b>¡No esperes más y compra en línea ahora!</b></p>
+            <div class="Carrito">
+                <a href="#"><img src="index/Encabezado/Carrito de compras.png" alt="HEADER_CAR"></a>
+            </div>
+            <div class="citas">
+                <a href="#">Agendar Citas</a>
+                <img src="index/Encabezado/Calendar.png" alt="Calendario">
             </div>
         </div>
+
     </div>
-
-    <a href="cuidados-basicos.html"><img id="cuidados" src="index/banner de inicio/Group 76.png" alt="Consejos para el cuidado de tus mascotas"></a>
-
-    <div class="quienes_somos" >
-        <h1>¿Quienes somos?</h1>
-        <p>Caninos y Felinos se posiciona como tu aliado de confianza en todo el territorio  colombiano para adquirir alimentos de calidad para perros y gatos.
-                Nos avalan las marcas líderes en alimentación, tanto en croquetas como en comida enlatada, y nos destacamos por nuestra variada gama de productos.
-                Contamos con un sistema logístico altamente eficiente que opera dentro de la zona caribe en La Guajira. Esto nos permite mantener la integridad de los
-                productos con una manipulación mínima de los empaques. Te invitamos a comprar en línea y a vivir una experiencia de servicio inigualable a nivel nacional.
-                Pensamos cada vez más en buscar estrategias que beneficien a los animales, hemos estado ayudando a los programas de protección y educación ciudadana.</p>
-        <img src="index/Equipo-Clinica-Veterinaria-Ejea-1 1.png" alt="¿Quienes somos?">
+    <div class="slider">
+        <ul>
+            <li> <img src="index/banner de inicio/Primer-banner.png" alt=""></li1>
+            <li><img src="index/banner de inicio/banner-2.png" alt=""></li2>
+            <li><img src="index/banner de inicio/banner-3.png" alt=""></li3>
+        </ul>
     </div>
-
-    <a href="vista_producto.html"><img class="arena" src="index/banner de inicio/Banner del pie de pag 1.png" alt="primer banner"></a>
-    
-    <div class="container-3">
-        <div class="recomendaciones">
-            <h1>Horarios de atención</h1>
-            <p>Nuestros servicios requieren programación de citas la cual puede ser asignada en línea. Trabajamos solo horarios de oficina.</p>
-            <p id="dias">LUNES A DOMINGO</p>
-            <p id="hora"><b>Horarios de oficina</b> 07:00 am - 08:30 pm</p>
-            <img src="Cat.png" alt="gato">
+    <div class="vista_productos">
+        <div class="title1"><h1>Los productos para mascotas más vendidos</h1></div>
+        <div class="title2"><p>Estos son los productos que más compran nuestros clientes.
+            ¡Echa un vistazo y anímate!</p>
         </div>
-
-        <div class="recomendaciones-2">
-            <h1>Urgencias 24/7</h1>
-            <P>La atención prioritaria por traumas, intoxicación, cuerpos  extraños, convulsiones, deshidratación y demás situaciones de emergencia
-                no requieren de una cita previamente programada.
-            </P>
-            <p id="dia">LUNES A DOMINGO</p>
-            <P id="horas" ><b>24 HORAS</b></P>
-            <img src="Dog.png" alt="perro">
-        </div>
-
-        <div class="recomendaciones-3">
-            <h1>Servicios</h1>
-            <div class="espacio">
-                <p>- Peluquería</p>
-                <p>- Veterinaria</p>
-            </div>
-
-            <div class="espacio-2">
-                <p>- Spa</p>
-                <p>- Guardería</p>
-            </div>
-            <p id="Dia">LUNES A DOMINGO</p>
-            <p id="Hora">Horarios de oficina 07:00 am - 08:30 pm</p>
-            <img src="Cat Footprint.png" alt="huella">
-        </div>
-    </div>
-
-    <!-------------------PIE_DE_PAGINA--------------------->
-
-    <div class="pie_de_pagina">
-        
-        <img class="logo_pie" src="Logo 3.png" alt="">
-
-        <div class="items">
-                <div class="items-1">
-                    
-                    <img src="pie_de_pagina/pie_telefono.png" alt="">
-                    <div class="text">
-                        <pre>(+57) 3246110500
-
-        (+57) 3222219297</pre>
-                        
+        <!-----------------PRODUCTOS------------------->
+        <div class="productos">
+            <div class="producto">
+                <img src="sesion_productos/producto1.png" alt="" class="img_produ">
+                <img src="index/Encabezado/REACCION.png" alt="" class="corazon">
+                <img src="index/Encabezado/carrito_P.png" alt="" class="carrito">
+                <div class="contenido_pro">
+                    <p class="precio">$12,600,00</p>
+                    <p class="nombre_pro">ROYAL CANIN ADULTO PERSIAN</p>
+                    <select name="" id="">
+                        <option value="" >Elige una opcion</option>
+                        <option value= "" >2kg</option>
+                        <option value="" >4kg</option>
+                        <option value="" >16kg</option>
+                    </select>
+                    <div class="can_com">
+                        <div class="cantidad">
+                            <p>-</p>
+                            <p>1</p>
+                            <p>+</p>
+                        </div>
+                        <button>Comprar</button>
                     </div>
-                    
                 </div>
+            </div>
 
-                <div class="items-2">
-                    <img src="pie_de_pagina/pie_ubicacion.png" alt="">
-                    <p>Avenida Caracas Nº 73 - 39 Bogotá D.C. - Colombia</p>
+            <!-- PRODUCTO-2 -->
+            <div class="producto">
+                <img src="sesion_productos/perro4.png" alt="" class="img_produ">
+                <img src="index/Encabezado/REACCION.png" alt="" class="corazon">
+                <img src="index/Encabezado/carrito_P.png" alt="" class="carrito">
+                <div class="contenido_pro">
+                    <p class="precio">$87,340,00</p>
+                    <p class="nombre_pro">ROYAL CANIN ADULTO 44Kg</p>
+                    <select name="" id="">
+                        <option value="" >Elige una opcion</option>
+                        <option value= "" >2kg</option>
+                        <option value="" >4kg</option>
+                        <option value="" >16kg</option>
+                    </select>
+                    <div class="can_com">
+                        <div class="cantidad">
+                            <p>-</p>
+                            <p>1</p>
+                            <p>+</p>
+                        </div>
+                        <button>Comprar</button>
+                    </div>
                 </div>
+            </div>
 
-                <div class="items-3">
-                    <img src="pie_de_pagina/pie_gmail.png" alt="">
+            <!-- PRODUCTO-3 -->
+            <div class="producto">
+                <img src="sesion_productos/producto10.png" alt="" class="img_produ">
+                <img src="index/Encabezado/REACCION.png" alt="" class="corazon">
+                <img src="index/Encabezado/carrito_P.png" alt="" class="carrito">
+                <div class="contenido_pro">
+                    <p class="precio">$34,000,00</p>
+                    <p class="nombre_pro">EQUILíBRIO ADULTO 5Kg </p>
+                    <select name="" id="">
+                        <option value="" >Elige una opcion</option>
+                        <option value= "" >2kg</option>
+                        <option value="" >4kg</option>
+                        <option value="" >16kg</option>
+                    </select>
+                    <div class="can_com">
+                        <div class="cantidad">
+                            <p>-</p>
+                            <p>1</p>
+                            <p>+</p>
+                        </div>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="presentacion_p">
+                <p>
+                    Si tienes un perro o un gato que alegre tus días, estamos aquí para brindarte todo lo que requieres para su cuidado y bienestar.
+                    Descubre la tienda de mascota y sumérgete en nuestras secciones cuidadosamente organizadas para explorar la mayor variedad de
+                    artículos y productos diseñados exclusivamente  para satisfacer las necesidades de tus caninos y felinos. Realiza tu pedido de manera cómoda
+                    y sencilla a través de nuestro sistema en línea, con la flexibilidad de pagar utilizando tu método preferido.
+                </p>
+                <p>¡No esperes más y compra en línea ahora!</p>
+            </div>
+        </div>
+        
+    </div>
+    <!-- BANNER CUIDADOS BASICOS -->
+    <div class="cuidados_basicos">
+        <a href="#"><img src="index/banner de inicio/cuidados-basicos.png" alt="Banner_cuidados_basicos"></a>
+    </div>
+    <!-- QUIENES SOMOS -->
+    <div class="quienes_somos">
+        <div class="quienes_tex">
+            <h1>¿Quienes somos?</h1>
+
+            <p>Caninos y Felinos se posiciona como tu aliado de confianza en todo el territorio
+                colombiano para adquirir alimentos de calidad para perros y gatos.
+                Nos avalan las marcas líderes en alimentación, tanto en croquetas
+                como en comida enlatada, y nos destacamos por nuestra variada gama de productos.
+                Contamos con un sistema logístico altamente eficiente que opera dentro
+                de la zona caribe en La Guajira. Esto nos permite mantener la integridad
+                de los productos con una manipulación mínima de los empaques.
+                Te invitamos a comprar en línea y a vivir una experiencia de servici
+                inigualable a nivel nacional. Pensamos cada vez más en buscar estrategias
+                que beneficien a los animales, hemos estado ayudando a los programa
+                de protección y educación ciudadana.
+
+            </p>
+        </div>
+        <div class="quienes_img">
+            <img src="index/Equipo-Clinica-Veterinaria-Ejea-1 1.png" alt="Equipo_veterinario">
+        </div>
+    </div>
+    <!-- BANNER CERCA DEL PIE DE PAGINA -->
+    <div class="banner_pie">
+        <ul>
+            <li>
+                <img src="index/banner de inicio/Banner del pie de pag 1.png" alt="">
+            </li>
+            <li>
+                <img src="index/banner de inicio/Banner del pie de pag 2.png" alt="">
+            </li>
+            <!-- <li>
+                <img src="index/banner de inicio/Banner del pie de pag 3.png" alt="">
+            </li> -->
+        </ul>
+    </div>
+    <!-- SESION DE INFORMACION -->
+    <div class="sesion_informativa">
+        <div class="sesion">
+            <div class="tex">
+                <div class="tex-title">
+                    <h1>Horarios de atención</h1>
+                    <p>
+                        Nuestros servicios requieren programación de citas la cual puede ser asignada en línea. Trabajamos solo horarios de oficina.
+                    </p>
+                </div>
+                
+                <div class="horarios">
+                    <div class="DIA">
+                        <p>LUNES A DOMINGOS</p>
+                    </div>
+                    <div class="HORA">
+                        <p>Horarios de oficina</p>
+                        <P>07:00 am - 08:30 pm</P>
+                    </div>
+                </div>
+            </div>
+            <div class="sesion-img">
+                <img src="index/Cat.png" alt="IMG-GATO">
+            </div>
+        </div>
+
+        <!-- URGENCIAS 24/7 -->
+        <div class="sesion">
+            <div class="tex">
+                <div class="tex-title2">
+                    <h1>Urgencias 24/7</h1>
+                    <p>
+                        La atención prioritaria por traumas, intoxicación, cuerpos  extraños, convulsiones, deshidratación y demás situaciones de emergencia
+                        no requieren de una cita previamente programada.
+                    </p>
+                </div>
+                
+                <div class="horarios">
+                    <div class="DIA">
+                        <p>LUNES A DOMINGOS</p>
+                    </div>
+                    <div class="HORA">
+                        <p>Horarios de oficina</p>
+                        <P>07:00 am - 08:30 pm</P>
+                    </div>
+                </div>
+            </div>
+            <div class="sesion-img">
+                <img src="index/Dog.png" alt="IMG-GATO">
+            </div>
+        </div>
+
+        <!-- SERVICIOS -->
+        <div class="sesion">
+            <div class="tex">
+                <div class="tex-title">
+                    <h1>Servicios</h1>
+                </div>
+                <div class="servicio">
+                    <div class="servicios">
+                        <h2>- Peluquería</h2>
+                        <h2>- Veterinaria</h2>
+                    </div>
+                        
+                    <div class="servicios">
+                        <h2>- Spa</h2>
+                        <h2>- Guardería</h2>
+                    </div>
+                </div>
+                <div class="horarios">
+                    <div class="DIA">
+                        <p>LUNES A DOMINGOS</p>
+                    </div>
+                    <div class="HORA">
+                        <p>Horarios de oficina</p>
+                        <P>07:00 am - 08:30 pm</P>
+                    </div>
+                </div>
+            </div>
+            <div class="sesion-img">
+                <img src="index/Cat Footprint.png" alt="IMG-GATO">
+            </div>
+        </div>
+    </div>
+    <!-----------------------PIE DE PAGINA------------------------>
+    <footer>
+        <div class="contenido">
+            <img src="LOGO.png" alt="">
+            <div class="contactos_pie">
+                <img src="./pie_de_pagina/pie_telefono.png" alt="">
+                <div class="tel">
+                    <p>(+57)3246110500</p>
+                    <p>(+57)3246110500</p>
+                </div>
+            </div>
+            <div class="ubi">
+                <img src="./pie_de_pagina/pie_ubicacion.png" alt="">
+                <p>Avenida Caracas N°73 - 39 Bogotá D.C.-colombia</p>
+            </div>
+            <div class="correo_politicas">
+                <div class="correo_pie">
+                    <img src="./pie_de_pagina/pie_gmail.png" alt="">
                     <p>OSWALDOECHEVERRIA307@GMAIL.COM</p>
                 </div>
-            
+            </div>
+            <div class="Politicas">
+                <h3>NOSOTROS</h3>
+                <p>POLITICA Y SEGURIDAD EN EL TRABAJO</p>
+            </div>
+        </div>
+        <div class="siguenos">
+            <h3>Siguenos en</h3>
+            <div class="redes_pie">
+                <img src="./pie_de_pagina/Facebook.png" alt="">
+                <img src="./pie_de_pagina/instagram.png" alt="">
+                <img src="./pie_de_pagina/twitter.png" alt="">
+                <img src="./pie_de_pagina/youtube.png" alt="">
+            </div>
         </div>
 
-        <div class="bordes">
-            <p>NOSOTROS</p>
-            <br>
-            <p>POLÍTICA Y SEGURIDAD EN EL TRABAJO</p>
-        </div>
-
-        <hr>
-        <h1 class="pie_h">Síguenos en:</h1>
-
-        <div class="redes_pie">
-            <a href="#"><img src="pie_de_pagina/Facebook.png" alt="Facebook"></a>
-            <a href="#"> <img class="i"  src="pie_de_pagina/instagram.png" alt="Instagram"></a>
-            <a href="#"><img class="y" src="pie_de_pagina/youtube.png" alt="youtube"></a>
-            <a href="#"><img class="t" src="pie_de_pagina/twitter.png"twitter></a>
-        </div>
-        <div class="end"></div>
-    </div>
+    </footer>
+    <div class="div_debajo_footer"></div>
 </body>
 </html>
