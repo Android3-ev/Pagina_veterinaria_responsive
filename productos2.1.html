@@ -9,56 +9,75 @@
 </head>
 <body>
 
-    <nav class="first_frame">
-    <!-------------------------------CONTACTOS---------------------------------------->
-        <nav class="contactos">
-            <img src="index/Encabezado/Telefono.png" alt="Telefono">
-            <a href="#" class="numero">+57 3246110500</a>
-            <img class="gmail" src="index/Encabezado/Mail.png" alt="Gmail">
-            <a href="#" class="correo">OSWALDOECHEVERRIA307@GMAIL.COM</a>
-        </nav>
-
-        <div class="redes">
-            <a href="#" class="a"><img  src="index/Encabezado/Facebook.png" alt="Facebook"></a>
-            <a href="#" class="b"><img  src="index/Encabezado/Instagram.png" alt="Instagram"></a>
-            <a href="#" class="c"><img  src="index/Encabezado/youtube.png" alt="youtube"></a>
-            <a href="#" class="d"><img  src="index/Encabezado/twitter.png" alt="twitter"></a>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index2.1.css">
+    <link rel="shortcut icon" href="index/Encabezado/logo-pestaña.png">
+    <title>Caninos y Felinos</title>
+</head>
+<body>
+     <!--- HEADER -->
+     <div class="container">
+        <div class="container1">
+            <!-- CONTACTOS -->
+            <div class="contactos">
+                <div class="Telefono">
+                    <img src="index/Encabezado/Telefono.png" alt="Telefono">
+                    <p>3246110500</p>
+                </div>
+                <div class="correo">
+                    <img src="index/Encabezado/Mail.png" alt="Gmail">
+                    <p>OSWALDOECHEVERRIA307@gmail.com</p>
+                </div>
+            </div>
+            <!-- REDES -->
+            <div class="redes">
+                <a href="#" class="a"><img  src="index/Encabezado/Facebook.png" alt="Facebook"></a>
+                <a href="#" class="b"><img  src="index/Encabezado/Instagram.png" alt="Instagram"></a>
+                <a href="#" class="c"><img  src="index/Encabezado/youtube.png" alt="youtube"></a>
+                <a href="#" class="d"><img  src="index/Encabezado/twitter.png" alt="twitter"></a>
+            </div>
+            <!-- INICIO-REGISTRO -->
+            <div class="inicio_registro">
+                <img id="Usuario"  src="index/Encabezado/Usuario.png" alt="Usuario">
+                <span><a href="#">INICIAR SESIÓN</a></span>
+                <!--BARRA DIVISORA-->
+                <span id="barra">/</span>
+                <span><a href="#" id="registro" >REGÍSTRATE</a></span>
+            </div>
         </div>
+        <!-- LOGO - MENU - CITAS -->
+        <div class="container2">
+            <div class="logo">
+                <a href="Index_responsive.html"><img src="LOGO.png"  alt="LOGO"></a>
+            </div>
 
-        <div class="inicio_registro">
-            <img id="Usuario"  src="index/Encabezado/Usuario.png" alt="Usuario">
-            <!--INICIO Y REGISTRO-->
-            <span><a href="inicio-de-sesion.html">INICIAR SESIÓN</a></span>
-            <!--BARRA DIVISORA-->
-            <span id="barra">/</span>
-            <span><a href="registro.html" id="registro" >REGÍSTRATE</a></span>
-        </div>
-        
-    </nav>
-    <!-------------------------------HEADER------------------------------->
-    <header>
-        <img class="logo" src= "LOGO.png" alt="Logo">
-        <input type="checkbox" id="check">
-        <label for="check" class="mostrar_menu">
-            &#8801
-        </label>
-        <nav class="menu">
-            <a href="#">PRODUCTOS</a>
-            <a href="#">SERVICIOS</a>
-            <a href="#">URGENCIAS</a>
-            <a href="nosotros2.1.html">NOSOTROS</a>
-            <label for="check" class="esconder_menu">
-                &#215
+            <input type="checkbox" id="check">
+            <label for="check" class="mostrar_menu">
+                &#8801
             </label>
-        </nav>
-        <!--AGENDACION DE CITAS-->
-        <div class="citas">
-            <a href="citas.html"><h2>Agendar citas</h2></a>
-            <img src="index/Encabezado/Calendar.png" alt="Calendario">
+            <nav class="menu">
+                <a href="productos2.1.html">PRODUCTOS</a>
+                <a href="servicios.html">SERVICIOS</a>
+                <a href="#">URGENCIAS</a>
+                <a href="#">NOSOTROS</a>
+                <label for="check" class="esconder_menu">
+                    &#215
+                </label>
+            </nav>
+            <div class="Carrito">
+                <a href="#"><img src="index/Encabezado/Carrito de compras.png" alt="HEADER_CAR"></a>
+            </div>
+            <div class="citas">
+                <a href="#">Agendar Citas</a>
+                <img src="index/Encabezado/Calendar.png" alt="Calendario">
+            </div>
         </div>
-        <!--CARRITO DE COMPRAS-->
-        <a href="#" id="carrito" ><img src="index/Encabezado/Carrito de compras.png" alt="Carrito de compras"></a>
-    </header>
+
+    </div>
     <!--BANNER SESION DE GATO-->
     <div class="banner_gato_contenedor">
         <img src="sesion_productos/sesión de gato.png" alt="banner_gato">
@@ -91,6 +110,340 @@
         </div>
     </div>
     <!-----------------PRODUCTOS DE LA PRIMERA FILA------------------->
+    <div class="productos">
+        <div class="producto">
+            <img src="sesion_productos/perro2.png" alt="" class="img_produ">
+            <img src="index/Encabezado/REACCION.png" alt="" class="corazon">
+            <img src="index/Encabezado/carrito_P.png" alt="" class="carrito">
+            <div class="contenido_pro">
+                <p class="precio">$12,600,00</p>
+                <p class="nombre_pro">ROYAL CANIN ADULTO PERSIAN</p>
+                <select name="" id="">
+                    <option value="" >Elige una opcion</option>
+                    <option value= "" >2kg</option>
+                    <option value="" >4kg</option>
+                    <option value="" >16kg</option>
+                </select>
+                <div class="can_com">
+                    <div class="cantidad">
+                        <p>-</p>
+                        <p>1</p>
+                        <p>+</p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="sesion_productos/perro4.png" alt="" class="img_produ">
+            <img src="index/Encabezado/REACCION.png" alt="" class="corazon">
+            <img src="index/Encabezado/carrito_P.png" alt="" class="carrito">
+            <div class="contenido_pro">
+                <p class="precio">$12,600,00</p>
+                <p class="nombre_pro">ROYAL CANIN ADULTO PERSIAN</p>
+                <select name="" id="">
+                    <option value="" >Elige una opcion</option>
+                    <option value= "" >2kg</option>
+                    <option value="" >4kg</option>
+                    <option value="" >16kg</option>
+                </select>
+                <div class="can_com">
+                    <div class="cantidad">
+                        <p>-</p>
+                        <p>1</p>
+                        <p>+</p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="sesion_productos/producto9.png" alt="" class="img_produ">
+            <img src="index/Encabezado/REACCION.png" alt="" class="corazon">
+            <img src="index/Encabezado/carrito_P.png" alt="" class="carrito">
+            <div class="contenido_pro">
+                <p class="precio">$12,600,00</p>
+                <p class="nombre_pro">ROYAL CANIN ADULTO PERSIAN</p>
+                <select name="" id="">
+                    <option value="" >Elige una opcion</option>
+                    <option value= "" >2kg</option>
+                    <option value="" >4kg</option>
+                    <option value="" >16kg</option>
+                </select>
+                <div class="can_com">
+                    <div class="cantidad">
+                        <p>-</p>
+                        <p>1</p>
+                        <p>+</p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="sesion_productos/producto10.png" alt="" class="img_produ">
+            <img src="index/Encabezado/REACCION.png" alt="" class="corazon">
+            <img src="index/Encabezado/carrito_P.png" alt="" class="carrito">
+            <div class="contenido_pro">
+                <p class="precio">$12,600,00</p>
+                <p class="nombre_pro">ROYAL CANIN ADULTO PERSIAN</p>
+                <select name="" id="">
+                    <option value="" >Elige una opcion</option>
+                    <option value= "" >2kg</option>
+                    <option value="" >4kg</option>
+                    <option value="" >16kg</option>
+                </select>
+                <div class="can_com">
+                    <div class="cantidad">
+                        <p>-</p>
+                        <p>1</p>
+                        <p>+</p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------PRODUCTOS DE LA PRIMERA FILA------------------->
+    <div class="productos">
+        <div class="producto">
+            <img src="sesion_productos/producto11.png" alt="" class="img_produ">
+            <img src="index/Encabezado/REACCION.png" alt="" class="corazon">
+            <img src="index/Encabezado/carrito_P.png" alt="" class="carrito">
+            <div class="contenido_pro">
+                <p class="precio">$12,600,00</p>
+                <p class="nombre_pro">ROYAL CANIN ADULTO PERSIAN</p>
+                <select name="" id="">
+                    <option value="" >Elige una opcion</option>
+                    <option value= "" >2kg</option>
+                    <option value="" >4kg</option>
+                    <option value="" >16kg</option>
+                </select>
+                <div class="can_com">
+                    <div class="cantidad">
+                        <p>-</p>
+                        <p>1</p>
+                        <p>+</p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="sesion_productos/shampoo_gato.png" alt="" class="img_produ">
+            <img src="index/Encabezado/REACCION.png" alt="" class="corazon">
+            <img src="index/Encabezado/carrito_P.png" alt="" class="carrito">
+            <div class="contenido_pro">
+                <p class="precio">$12,600,00</p>
+                <p class="nombre_pro">ROYAL CANIN ADULTO PERSIAN</p>
+                <select name="" id="">
+                    <option value="" >Elige una opcion</option>
+                    <option value= "" >2kg</option>
+                    <option value="" >4kg</option>
+                    <option value="" >16kg</option>
+                </select>
+                <div class="can_com">
+                    <div class="cantidad">
+                        <p>-</p>
+                        <p>1</p>
+                        <p>+</p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="sesion_productos/omega.png" alt="" class="img_produ">
+            <img src="index/Encabezado/REACCION.png" alt="" class="corazon">
+            <img src="index/Encabezado/carrito_P.png" alt="" class="carrito">
+            <div class="contenido_pro">
+                <p class="precio">$12,600,00</p>
+                <p class="nombre_pro">ROYAL CANIN ADULTO PERSIAN</p>
+                <select name="" id="">
+                    <option value="" >Elige una opcion</option>
+                    <option value= "" >2kg</option>
+                    <option value="" >4kg</option>
+                    <option value="" >16kg</option>
+                </select>
+                <div class="can_com">
+                    <div class="cantidad">
+                        <p>-</p>
+                        <p>1</p>
+                        <p>+</p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="sesion_productos/producto1.png" alt="" class="img_produ">
+            <img src="index/Encabezado/REACCION.png" alt="" class="corazon">
+            <img src="index/Encabezado/carrito_P.png" alt="" class="carrito">
+            <div class="contenido_pro">
+                <p class="precio">$12,600,00</p>
+                <p class="nombre_pro">ROYAL CANIN ADULTO PERSIAN</p>
+                <select name="" id="">
+                    <option value="" >Elige una opcion</option>
+                    <option value= "" >2kg</option>
+                    <option value="" >4kg</option>
+                    <option value="" >16kg</option>
+                </select>
+                <div class="can_com">
+                    <div class="cantidad">
+                        <p>-</p>
+                        <p>1</p>
+                        <p>+</p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------PRODUCTOS DE LA PRIMERA FILA------------------->
+    <div class="productos">
+        <div class="producto">
+            <img src="Vista-producto/fofi-1.jpg" alt="" class="img_produ">
+            <img src="index/Encabezado/REACCION.png" alt="" class="corazon">
+            <img src="index/Encabezado/carrito_P.png" alt="" class="carrito">
+            <div class="contenido_pro">
+                <p class="precio">$12,600,00</p>
+                <p class="nombre_pro">ROYAL CANIN ADULTO PERSIAN</p>
+                <select name="" id="">
+                    <option value="" >Elige una opcion</option>
+                    <option value= "" >2kg</option>
+                    <option value="" >4kg</option>
+                    <option value="" >16kg</option>
+                </select>
+                <div class="can_com">
+                    <div class="cantidad">
+                        <p>-</p>
+                        <p>1</p>
+                        <p>+</p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="Vista-producto/fofi-2.jpg" alt="" class="img_produ">
+            <img src="index/Encabezado/REACCION.png" alt="" class="corazon">
+            <img src="index/Encabezado/carrito_P.png" alt="" class="carrito">
+            <div class="contenido_pro">
+                <p class="precio">$12,600,00</p>
+                <p class="nombre_pro">ROYAL CANIN ADULTO PERSIAN</p>
+                <select name="" id="">
+                    <option value="" >Elige una opcion</option>
+                    <option value= "" >2kg</option>
+                    <option value="" >4kg</option>
+                    <option value="" >16kg</option>
+                </select>
+                <div class="can_com">
+                    <div class="cantidad">
+                        <p>-</p>
+                        <p>1</p>
+                        <p>+</p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="Vista-producto/fofi-3.jpg" alt="" class="img_produ">
+            <img src="index/Encabezado/REACCION.png" alt="" class="corazon">
+            <img src="index/Encabezado/carrito_P.png" alt="" class="carrito">
+            <div class="contenido_pro">
+                <p class="precio">$12,600,00</p>
+                <p class="nombre_pro">ROYAL CANIN ADULTO PERSIAN</p>
+                <select name="" id="">
+                    <option value="" >Elige una opcion</option>
+                    <option value= "" >2kg</option>
+                    <option value="" >4kg</option>
+                    <option value="" >16kg</option>
+                </select>
+                <div class="can_com">
+                    <div class="cantidad">
+                        <p>-</p>
+                        <p>1</p>
+                        <p>+</p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="Vista-producto/fofi-4.jpg" alt="" class="img_produ">
+            <img src="index/Encabezado/REACCION.png" alt="" class="corazon">
+            <img src="index/Encabezado/carrito_P.png" alt="" class="carrito">
+            <div class="contenido_pro">
+                <p class="precio">$12,600,00</p>
+                <p class="nombre_pro">ROYAL CANIN ADULTO PERSIAN</p>
+                <select name="" id="">
+                    <option value="" >Elige una opcion</option>
+                    <option value= "" >2kg</option>
+                    <option value="" >4kg</option>
+                    <option value="" >16kg</option>
+                </select>
+                <div class="can_com">
+                    <div class="cantidad">
+                        <p>-</p>
+                        <p>1</p>
+                        <p>+</p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------PIE DE PAGINA------------------------>
+    <footer>
+        <div class="contenido">
+            <img src="LOGO.png" alt="">
+            <div class="contactos_pie">
+                <img src="./pie_de_pagina/pie_telefono.png" alt="">
+                <div class="tel">
+                    <p>(+57)3246110500</p>
+                    <p>(+57)3246110500</p>
+                </div>
+            </div>
+            <div class="ubi">
+                <img src="./pie_de_pagina/pie_ubicacion.png" alt="">
+                <p>Avenida Caracas N°73 - 39 Bogotá D.C.-colombia</p>
+            </div>
+            <div class="correo_politicas">
+                <div class="correo_pie">
+                    <img src="./pie_de_pagina/pie_gmail.png" alt="">
+                    <p>OSWALDOECHEVERRIA307@GMAIL.COM</p>
+                </div>
+            </div>
+            <div class="Politicas">
+                <h3>NOSOTROS</h3>
+                <p>POLITICA Y SEGURIDAD EN EL TRABAJO</p>
+            </div>
+        </div>
+        <div class="siguenos">
+            <h3>Siguenos en</h3>
+            <div class="redes_pie">
+                <img src="./pie_de_pagina/Facebook.png" alt="">
+                <img src="./pie_de_pagina/instagram.png" alt="">
+                <img src="./pie_de_pagina/twitter.png" alt="">
+                <img src="./pie_de_pagina/youtube.png" alt="">
+            </div>
+        </div>
+
+    </footer>
+    <div class="div_debajo_footer"></div>
     
 </body>
 </html>

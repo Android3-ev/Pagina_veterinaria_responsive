@@ -174,31 +174,223 @@ p{
     position: absolute;
     right: 2.5%;
 }
-.banner_gato_contenedor{
+.inicio{
     margin-top: 20px;
-    width: 100%;
-    text-align: center;
+    margin-left: 1%;
+    width: 98%;
+    height: 800px;
+    position: relative;
+    /* background-color: #444; */
+    /* overflow: auto; */
 }
-/*MENÚ DE OPCIONES SESION DE GATO*/
-.clearfix{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-evenly;
-    margin-top: 30px;
+.inicio img{
+    width: 1028px;
+    position: absolute;
+    right: 0;
 }
 
-.opciones{
-    width: 220px;
-    height: 60px;
+.texto{
+    width: 550px;
     display: flex;
-    justify-content: center;
-    gap: 5px;
+    flex-direction: column;
+    gap: 50px;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    text-align: justify;
     align-items: center;
-    background-color: #9bc5fc;
-    filter: brightness(96%);
 }
+.title{
+    font-size: 28px;
+    text-align: center;
+}
+.parrafo{
+    width: 80%;
+}
+.cuadro1, .cuadro2{
+    width: 75px;
+    height: 80px;
+    background-color: #006FFF;
+    opacity: 45%;
+}
+.cuadro1{
+    position: absolute;
+    bottom: 0;
+    right: 55.1%;
+}
+
+/*RECTANGULO ANARANJADO OSCURO*/
+.cuadro3, .cuadro4{
+    width: 240px;
+    height: 60px;
+    background-color: #F4B335;
+    position: absolute;
+}
+.cuadro3{
+    opacity: 52%;
+    top: 0%;
+    right: 52%;
+}
+.cuadro4{
+    bottom: 20%;
+    left: 0%;
+}
+.beneficios{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    background-color: #0F5FA9;
+}
+.text_beneficios{
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.contenido_beneficios{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.contenido_beneficios h1{
+    color: #444;
+}
+.contenido_beneficios p{
+    text-align: justify;
+    font-size: 17px;
+}
+.servicios{
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    /* background-color: #F4B335; */
+}
+.servicio{
+    margin-top: 20px;
+    width: 530px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.servicio img{
+    width: 535px;
+    height: 358px;
+}
+
+.servicio:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background-color: rgba(0, 0, 0, 0.21);
+}
+.etiqueta{
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+    font-size: 22px;
+    position: absolute;
+    right: 0%;
+    bottom: 32%;
+    background-color: rgba(27, 80, 129, 0.8) ;
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(16, 89, 156,80);
+    min-height: 400px;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+footer p, footer h3{
+    color: #fff;
+}
+.contactos_pie, .ubi, .correo_pie{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contenido{
+    width: 93%;
+    height: 300px;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 5px solid #fff;
+    position: relative;
+}
+.siguenos{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.redes_pie{
+    margin-top: 20px;
+}
+.redes_pie img{
+    height: 50px;
+}
+.div_debajo_footer{
+    height: 80px;
+    background: #444;
+}
+.Politicas{
+    background: #444;
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    padding: 5px;
+    width: 370px;
+    height: 80px;
+    border-radius: 100px 5px 100px 80px;
+}
+.Politicas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Politicas h3, .Politicas p{
+    margin-top: 10px;
+    margin-left: 15px;
+    
+}
+/* BANNERS PRINCIPAL */
+@keyframes slider{
+    0%,20% {margin-left: 0%;}
+
+    25% ,45%{margin-left: -100%;}
+
+    50%,70%{margin-left: -200%;}
+}
+/* BANNERS CERCA DEL PIE DE PAG */
+@keyframes sliders{
+    0%,20% {margin-left: 0%;}
+
+    25% ,45%{margin-left: -100%;}
+}
+
 @media (max-width: 1320px){
     .container2{
         justify-content: space-evenly;
